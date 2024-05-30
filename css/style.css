@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Thin.woff2') format('woff2'),
+        url('../fonts/Montserrat/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sevillana';
+    src: url('../fonts/Sevillana/Sevillana-Regular.woff2') format('woff2'),
+        url('../fonts/Sevillana/Sevillana-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+}
+table {
+    width: 80%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 5px solid red;
+    width: 10%;
+}
+
+td:first-child,
+th:first-child {
+    width: 30%;
+}
+
+td[colspan],
+th[colspan] {
+    text-align: center;
+}
+
+.break {
+    background: goldenrod;
+}
+
+.break-time {
+    background: blueviolet;
+    color: #fff;
+}
+
+.center {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px calc(50vw - 300px);
+    background-image: linear-gradient(to right, green, blue, gold);
+}
+
+.text-block {
+    font-family: 'Sevillana', cursive;
+}
